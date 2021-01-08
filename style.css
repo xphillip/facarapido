@@ -1,0 +1,121 @@
+body,ul,li,p{
+
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+body{
+    background:rgb(228, 228, 228);
+}
+a{
+    text-decoration: none;
+    color: gray;
+    background: white;
+}
+header{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 20px;
+    align-items: center;    
+
+}
+
+.menu{
+    display: flex;
+    width: max-content;
+}
+
+.menu li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    
+}
+.menu li a{
+    display: block;
+    padding: 10px;    
+}
+
+#inicio1{
+    margin: 0 auto;
+    color: rgb(66, 66, 66);
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    width: 800px;
+
+}
+#inicio1 h1{
+    font-size: xx-large;
+}
+
+#inicio1 p{
+    font-size:smaller;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: max-content;
+    margin: 0 auto;
+
+
+}
+
+.flex > div{
+    margin: 40px;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: gray 0.2em 0.2em 0.4em;
+    background: white; 
+    padding: 15px;
+
+
+}
+
+.flex > div>h1{
+    font-size:xx-large;
+    text-align: center;
+    padding-bottom: 20px;
+    color: green;
+}
+
+.flex>div>p{
+    font-size: small;
+    text-align:justify;
+    padding-bottom: 10px;
+}
+
+.flex>div>img{
+    padding: 20px;
+    width: 72px;
+    height: 72px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+
+button{  
+    text-align: center;
+    background-color:green;
+    border: none;
+    padding: 12px 15px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+
+
+
+
+}
+
